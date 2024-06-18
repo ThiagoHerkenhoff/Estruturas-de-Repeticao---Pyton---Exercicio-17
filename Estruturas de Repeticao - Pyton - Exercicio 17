@@ -1,0 +1,16 @@
+# 17 - Faça um programa que leia um número inteiro positivo 'N' e calcule a soma dos 'N' primeiros números
+# naturais.
+
+num = int(input('Informe um número inteiro positivo: '))
+
+contador = 0
+soma = 0
+
+if num < 0:
+    print('Número inválido, favor verificar')
+
+else:
+    while contador < num:
+        contador = contador + 1
+        soma = soma + contador
+    print(soma)
